@@ -1,0 +1,299 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+}
+
+.menu {
+	width: 1473px;
+	height: 50px;
+	background-color: #0411f7;
+	margin-top: -16px;
+	margin-left: -8px;
+}
+
+.menu ul {
+	font: 16px arial;
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li {
+	width: 150px;
+	float: left;
+}
+
+.menu a {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul {
+	visibility: visible;
+}
+
+.menu a:hover {
+	background-color: #6a71f2;
+	color: #555;
+}
+
+.menu ul ul li {
+	float: none;
+	border-bottom: solid 1px #ccc;
+}
+
+.menu ul ul li a {
+	background-color: #6a71f2;
+}
+
+.Title {
+	font-size: 30px;
+}
+
+.col-md-12 {
+	display: inline-flex;
+}
+
+.col-md-4-1 {
+	padding: 50px;
+	padding-top: 10px;
+	margin-right: -80px;
+	margin-left: -50px;
+}
+
+.col-md-4-2 {
+	padding: 50px;
+	margin-top: -40px;
+}
+
+.col-md-4-3 {
+	padding: 50px;
+	margin-top: -40px;
+	margin-left: -80px;
+}
+
+.col-md-4-4 {
+	padding: 50px;
+	margin-left: -50px;
+	margin-top: -100px;
+}
+
+.col-md-4-5 {
+	padding: 50px;
+	margin-left: -80px;
+	margin-top: -100px;
+}
+
+#BuscarCodigo {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#btnBuscarCodigo {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#Busca1 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca1 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+#BuscarTitulo {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#Busca2 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca2 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+#btnBuscarTitulo {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#BuscarAutor {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#btnBuscarAutor {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#Busca3 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca3 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+#BuscarEditora {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#btnBuscarEditora {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#Busca4 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca4 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+#BuscarAno {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#btnBuscarAno {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#Busca5 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca5 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+#BuscarCategoria {
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 31px;
+	width: 228px;
+}
+
+#btnBuscarCategoria {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+}
+
+#Busca6 img {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#Busca6 {
+	border: solid 10px rgba(47, 79, 79, 0.8);
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 5px;
+}
+
+#botao {
+	float: right;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 7px;
+}
