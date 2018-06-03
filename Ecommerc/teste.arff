@@ -1,0 +1,14 @@
+@relation Vendas
+
+@attribute Ação {SIM,NAO}
+@attribute Aventura {SIM,NAO}
+@attribute Ano numeric
+@attribute Preco numeric
+@attribute Autor {JJMartins,Outro}
+@attribute Editora {Saraiva,Outra}
+@attribute Vendeu {SIM,NAO}
+
+@data
+SIM,SIM,2018,25,JJMartins,Saraiva,SIM
+SIM,NAO,1980,50,JJMartins,Saraiva,SIM
+NAO,SIM,2018,25,JJMartins,Saraiva,NAO

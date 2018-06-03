@@ -20,5 +20,7 @@
 	<classpathentry kind="lib" path="C:/Users/CIBORGUE/Desktop/Ferramentas/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar"/>
 	<classpathentry kind="lib" path="C:/Users/CIBORGUE/Desktop/Ferramentas/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="lib" path="C:/Users/CIBORGUE/Desktop/Ferramentas/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-8/weka.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-8/weka-src.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
